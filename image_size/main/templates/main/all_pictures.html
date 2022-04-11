@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>{{ title }}</title>
+</head>
+<body>
+{% for i in images %}
+<p><a href="{{ i.pk }}">{{ i.name }}</a></p>
+{% endfor %}
+</body>
+</html>
